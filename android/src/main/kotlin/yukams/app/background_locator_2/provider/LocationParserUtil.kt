@@ -18,7 +18,7 @@ class LocationParserUtil {
                 isMocked = location.isFromMockProvider
             }
 
-            return hashMapOf<String, Any?>(
+            return hashMapOf<Any, Any>(
                     Keys.ARG_IS_MOCKED to isMocked,
                     Keys.ARG_LATITUDE to location.latitude,
                     Keys.ARG_LONGITUDE to location.longitude,
